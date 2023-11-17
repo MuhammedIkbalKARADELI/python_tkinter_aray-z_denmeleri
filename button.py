@@ -8,14 +8,16 @@ form.geometry("500x400")
 
 def topla():
     print("toplama")
+
+def cikartma():
+    print("çıkartma")
     
 
 buton = tk.Button(form,text="Tıkla",fg="black",bg="red",command=topla)
 buton.pack(side=tk.LEFT)
 
-buton2 = tk.Button(form,text="Tıkla2",command=topla)
+buton2 = tk.Button(form,text="Tıkla2",command=cikartma)
 buton2.pack(side=tk.RIGHT)
-
 
 
 form.mainloop()
